@@ -24,7 +24,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/line-profile",
+            "outputPath": {
+              "base": "dist/line-profile"
+            },
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
