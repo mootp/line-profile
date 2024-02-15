@@ -2,6 +2,6 @@
 ```
 ng new line-profile --routing --no-standalone --style scss --ssr false --directory ./
 
-ng build --base-href "./line-profile/" --output-path "./docs"
+ng build --base-href "./" --output-path "./docs"
 
 ```
